@@ -1,0 +1,49 @@
+
+body{
+  background-color: black;
+  margin: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+#light{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.botao{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin-top: 60px;
+}
+
+button{
+  width: 180px;
+  height: 50px;
+  margin-left: 15px;
+  
+}
+
+
+img{
+  width: 250px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+}

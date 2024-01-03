@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 40px;
+    text-shadow: 20px 20px 7px rgb(214, 212, 212);
+}
+
+.total{
+    margin-top: 270px;
+    text-align: center;
+}
+
+#button-iniciar{
+    background-color: rgb(20, 163, 7);
+    color: white;
+    padding: 20px 20px;
+    border: transparent;
+    border-radius: 35px;
+    margin-right: 0px;
+}
+
+#button-pausar{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    border: transparent;
+    border-radius: 35px;
+    margin-right: 0px;
+}
+
+#button-zerar{
+    background-color: rgb(202, 6, 6);
+    padding: 20px 20px;
+    border: transparent;
+    border-radius: 35px;
+    margin-right: 0px;
+    position: fixed;
+}
+
+
+
+#button-iniciar:hover{
+    background-color: rgb(5, 131, 5);
+    padding: 18px 38px;
+    transition: 0.5s;
+}
+
+#button-pausar:hover{
+    background-color: rgb(85, 85, 85);
+    padding: 18px 38px;
+    transition: 0.5s;
+}
+
+#button-zerar:hover{
+    background-color: rgb(119, 1, 1);
+    padding: 18px 38px;
+    transition: 0.5s;
+}

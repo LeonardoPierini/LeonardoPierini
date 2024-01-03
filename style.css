@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+
+header{
+    background-color: rgb(99, 98, 98);
+    line-height: 100px;
+}
+header h1{
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+
+
+
+.img-profile{
+    margin: 2%;
+    display: flex;
+}
+
+.im{
+    border-radius: 50%;
+    margin: 1% 2% 0%;
+    overflow: hidden;
+    width: 20%;
+    object-fit: cover;
+
+}
+
+
+
+.campos{
+    display: flex;
+    margin: 3% 5%;
+     
+}
+
+
+
+.camp1 h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.camp2 h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.camp3 h2{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+.campos .projetos{
+    width: 250px;
+    height: 150px;
+    background-color:rgb(99, 98, 98);
+    margin: 2px 20px;
+    border-radius: 20px; 
+    color: white;
+    text-align: center; 
+    padding: 0;
+    cursor: pointer;
+    
+}
+.campos .certificados{
+    width: 250px;
+    height: 150px;
+    background-color:rgb(99, 98, 98);
+    margin: 2px 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.campos .undf{
+    width: 250px;
+    height: 150px;
+    background-color:rgb(99, 98, 98);
+    margin: 2px 20px;
+     border-radius: 20px;
+     color: white;
+     text-align: center;
+     cursor: pointer;
+}
+
+
+
+.descricao{
+    background-color: rgb(99, 98, 98);
+    border-radius:5% 5% 0 0 ;
+    width: 90%;
+    text-align: center;
+   margin-left: 5%;
+}
+
+.descricao h1{
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.descricao h2{
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descricao p {
+    color: white;
+    line-height:30px;
+    padding: 0 5%;
+}
+
+.descricao h3{
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    line-height: 80px;
+}
+
+
+
+
+.camp-contact{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    gap: 7.5%;
+    cursor: pointer;
+}
+
+.camp-contact .zap img{
+    width: 50px;
+    position: absolute;
+}
+.camp-contact .face img{
+    width: 50px;
+    position: absolute;
+}
+.camp-contact .insta img{
+    width: 50px;
+    position: absolute;
+}
+
+
+
+footer{
+    background-color: rgba(44, 44, 44, 0.452);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+}
+footer p{
+    color: white;
+    margin-left: 5%;
+}
+
+
+.see{
+   width:  150px;
+}
+
+.see2{
+    width:  160px;
+}
+.see3{
+    width:  140px;
+}
+
+
+
+
+
+.campos .projetos:hover{
+    background-color:rgb(88, 88, 88);
+}
+
+.campos .undf:hover{
+    background-color:rgb(88, 88, 88);
+}
+
+.campos .certificados:hover{
+    background-color:rgb(88, 88, 88);
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .img-profile {
+      display: block;
+      text-align: center;
+    }
+
+    .camp-contact{
+        justify-content: center;
+        margin-left: -4%;
+    }
+
+    .campos{
+        justify-content: center;
+        
+    }
+}
+
+@media (max-width: 850px) {
+   .campos .projetos{
+        width: 100%;
+        margin: 10% 0 2% 0;
+        
+    }
+    .campos .certificados{
+        width: 100%;
+        margin: 10% 0 2% 0;
+    }
+    .campos .undf{
+        width: 100%;
+        margin: 10% 0 2% 0;
+    }
+
+    .campos{
+        display: block;
+    }
+
+    .camp-contact{
+        gap: 10vh;
+        margin: 5% 0;
+        margin-left: -4%;
+        
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+        opacity: 0.5;
+    }
+
+    .descricao{
+        border-radius: 2% 2% 0 0;
+    }
+
+    .im{
+        width: 50%;
+        height: 50%;
+        border: 5px solid rgb(88, 88, 88);
+        animation: giro 1s infinite;
+
+    
+    }
+
+}
+
