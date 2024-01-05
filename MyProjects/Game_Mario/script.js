@@ -3,6 +3,7 @@ const pipe = document.querySelector('.pipe')
 const Cloud = document.querySelector('.clouds')
 
 
+
 const jump = () => {
     mario.classList.add('jump')
 
@@ -41,4 +42,4 @@ const loop = setInterval(() => {
 
 
 document.addEventListener('keydown', jump)
-
+document.addEventListener('click', jump)

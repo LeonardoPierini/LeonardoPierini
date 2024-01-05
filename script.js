@@ -3,7 +3,7 @@ const Cert = document.getElementById('certificado')
 const uf = document.getElementById('info')
 
 const Zap = document.getElementById('whats')
-const Face = document.getElementById('facebook')
+const Git = document.getElementById('github')
 const Insta = document.getElementById('instagram')
 
 
@@ -42,12 +42,12 @@ function WhatsApp(){
 }
 
 
-function FaceBook(){
+function GitHub(){
 
-    var linkFace = 'https://www.facebook.com/leonardo.pierini.90?mibextid=ZbWKwL';
+    var linkGithub = 'https://github.com/LeonardoPierini';
 
         // Abre o link em uma nova janela ou aba
-        window.open(linkFace, '_blank');
+        window.open(linkGithub, '_blank');
 }
 
 
@@ -62,6 +62,6 @@ function Instagram(){
 
 Zap.addEventListener('click', WhatsApp)
 
-Face.addEventListener('click', FaceBook)
+Git.addEventListener('click', GitHub)
 
 Insta.addEventListener('click', Instagram)

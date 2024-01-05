@@ -12,15 +12,16 @@
 h2,h1{
 	color: white;
 	font-family: sans-serif;
+	text-shadow: 10px 10px 10px black;
 }
 
 .container-slide{
 	display: flex;
 	justify-content: space-between;
 	width: 50vw;
-	height: 50vh;
+	height: 60vh;
 	background-color: black;
-	margin: 15vh auto;
+	margin: 10vh auto;
 	border-radius: var(--pattern-border-radius);
 	box-shadow: 0 20px 30px #00000088;
 	border: 5px solid black;
@@ -30,14 +31,14 @@ h2,h1{
 	position: absolute;
 	display: flex;
 	width: 50vw;
-	height: 50vh;
+	height: 60vh;
 	border-radius: var(--pattern-border-radius);
 	overflow: hidden;
 }
 
 .item{
 	width: 50vw;
-	height: 50vh;
+	height: 60vh;
 	transition: all 1s;
 }
 
@@ -47,7 +48,7 @@ h2,h1{
 
 .item img{
 	width: 50vw;
-	height: 50vh;
+	height: 60vh;
 	border-radius: var(--pattern-border-radius);
 }
 
@@ -81,7 +82,7 @@ h2,h1{
     position: absolute;
     color: white;
     left: 50%;
-    top:85%;
+    top:90%;
     transform: translate(-50%);
     display: flex;
     gap: 5px;
@@ -133,5 +134,189 @@ h2,h1{
 	left: 10px;
 	top: 7px;
 	position: absolute;
+}
+
+
+@media (max-width: 1150px) {
+   
+	.container-slide{
+		width: 60vw;
+		height: 50vh;
+		margin: 15vh auto;
+	}
+	.container-items{
+		width: 60vw;
+		height: 50vh;
+	}
+	
+	.item{
+		width: 60vw;
+		height: 50vh;
+	}
+	
+	.item:first-child{
+		margin-left: -100%;
+	}
+	
+.item img{
+	width: 60vw;
+	height: 50vh;
+}
+
+.action-button{
+	font: bold 30px sans-serif;
+	width: 90px;
+	
+}
+
+.indicators {
+    top: 83%;
+    gap: 7px;
+}
+
+
+.indicators span:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+}
+
+.indicators .selected {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+}
+
+
+.header{
+    background-color: rgb(96, 96, 96);
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icert{
+	width: 15vh;
+	right: 10px;
+	top: 7px;
+	position: absolute;
+}
+
+.icert2{
+	width: 15vh;
+	left: 10px;
+	top: 7px;
+	position: absolute;
+}
+
+.icert{
+	width: 9vh;
+	right: 10px;
+	top: 5vh;
+}
+
+.icert2{
+	width: 9vh;
+	left: 10px;
+	top: 5vh;
+}
+
+
+
+}
+
+
+
+/* responsivo para celular */
+@media (max-width: 700px) {
+   
+	.container-slide{
+		width: 90vw;
+		height: 37vh;
+		margin: 15vh auto;
+	}
+	.container-items{
+		width: 90vw;
+		height: 37vh;
+	}
+	
+	.item{
+		width: 90vw;
+		height: 37vh;
+	}
+	
+	.item:first-child{
+		margin-left: -100%;
+	}
+	
+.item img{
+	width: 90vw;
+	height: 37vh;
+}
+
+.action-button{
+	font: bold 30px sans-serif;
+	width: 90px;
+	
+}
+
+.indicators {
+    top: 75%;
+    gap: 7px;
+}
+
+
+.indicators span:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+}
+
+.indicators .selected {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px black;
+}
+
+
+.header{
+    background-color: rgb(96, 96, 96);
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icert{
+	width: 15vh;
+	right: 10px;
+	top: 7px;
+	position: absolute;
+}
+
+.icert2{
+	width: 15vh;
+	left: 10px;
+	top: 7px;
+	position: absolute;
+}
+
+.icert{
+	width: 9vh;
+	right: 10px;
+	top: 5vh;
+}
+
+.icert2{
+	width: 9vh;
+	left: 10px;
+	top: 5vh;
+}
+
+
+
 }
 

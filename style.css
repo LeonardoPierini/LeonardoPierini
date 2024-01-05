@@ -11,7 +11,7 @@ body{
 
 header{
     background-color: rgb(99, 98, 98);
-    line-height: 100px;
+    line-height: 100px ;
 }
 header h1{
     color: white;
@@ -135,8 +135,6 @@ header h1{
 }
 
 
-
-
 .camp-contact{
     display: flex;
     margin-left: 5%;
@@ -149,10 +147,11 @@ header h1{
     width: 50px;
     position: absolute;
 }
-.camp-contact .face img{
+.camp-contact .git img{
     width: 50px;
     position: absolute;
 }
+
 .camp-contact .insta img{
     width: 50px;
     position: absolute;
@@ -221,6 +220,16 @@ footer p{
 }
 
 @media (max-width: 850px) {
+
+    .img-profile{
+        margin-top: 10%;
+    }
+    
+
+    header{
+        line-height: 50px ;
+    }
+
    .campos .projetos{
         width: 100%;
         margin: 10% 0 2% 0;
@@ -241,7 +250,7 @@ footer p{
 
     .camp-contact{
         gap: 10vh;
-        margin: 5% 0;
+        margin: 5% 12%;
         margin-left: -4%;
         
     }
@@ -255,6 +264,10 @@ footer p{
 
     .descricao{
         border-radius: 2% 2% 0 0;
+    }
+
+    .descricao h2{
+        line-height: 50px;
     }
 
     .im{

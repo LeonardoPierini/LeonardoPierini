@@ -84,6 +84,16 @@ p{
 }
 
 @media (max-width: 850px) {
+
+    .header a:nth-child(1){
+        margin-left: -20px;
+    }
+
+    .header a:nth-child(2){
+        margin-left: -20px;
+    }
+    
+    
   a:nth-child(0){
     left: 38%;
     top: 0%;
