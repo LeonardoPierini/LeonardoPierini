@@ -1,9 +1,9 @@
 ### Olá! Eu osu Leonardo Pierini👋 
 
 [![Site](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://leonardo-pierini.netlify.app/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]()
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)]()
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)]()
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/leo_pierini?igsh=emJrMGRqN240cDJp)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5518997237098?text=Ol%C3%A1+Pierini%2C+entrei+em+contato+atrav%C3%A9s+do+seu+GitHub%21%21%21+)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/e9G6j55MLSDPoKvX/?mibextid=qi2Omg)
 
 ![Pierini GitHub stats](https://github-readme-stats.vercel.app/api?username=LeonardoPierini&show_icons=true&theme=radical)
 
@@ -21,3 +21,6 @@
 <br><br>
 
 ### Construindo o futuro do código, um commit de cada vez...
+
+
+
